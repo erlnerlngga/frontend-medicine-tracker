@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HeroImage from "../public/hero-image.jpg";
-import FormLogin from "./components/FormLogin";
+import HeroImage from "../../public/hero-image.jpg";
+import FormRegistered from "../components/FormRegistered";
 
 export default function Page() {
   return (
@@ -20,7 +20,7 @@ export default function Page() {
           </h1>
 
           <hr className="border-1 border-gray-600 mb-20" />
-          <FormLogin />
+          <FormRegistered />
         </div>
       </div>
     </section>
