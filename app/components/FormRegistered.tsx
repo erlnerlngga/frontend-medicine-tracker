@@ -10,6 +10,7 @@ export default function FormRegister() {
 
   const formik = useFormik({
     initialValues: {
+      name: "",
       email: "",
     },
     validate: registerValidation,
